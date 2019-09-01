@@ -31,7 +31,7 @@ const pin = new L.Icon({
   shadowSize: [41, 41]
 });
 
-jqueryNoConflict.getJSON('../../data/locations.json', loadLocations);
+jqueryNoConflict.getJSON('data/locations.json', loadLocations);
 
 function loadLocations(locations) {
   for(let i = 0; i < locations.length; i++) {
