@@ -5,7 +5,7 @@ const defaultLocation = [3.1390, 101.6869];
 const defaultZoomLevel = 10;
 const maxZoomLevel = 18;
 
-const map = L.map('mapid').setView(defaultLocation, defaultZoomLevel);
+const map = L.map('map').setView(defaultLocation, defaultZoomLevel);
 
 L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
   attribution: `Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors,
