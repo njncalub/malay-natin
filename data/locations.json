@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Mansion Tea Stall",
+        "latitude": 3.1520895,
+        "longitude": 101.6953416,
+        "description": "The thing to order here is the roti canai special, roti that chopped up, then doused in a variety of curry sauces, sambal, and a few soft boiled eggs. It’s a perfect way to begin your day in Kuala Lumpur.",
+        "video_url": "https://www.youtube.com/watch?v=u5LYl4DM5c4"
+    },
+    {
+        "name": "Nasi Lemak Tanglin",
+        "latitude": 3.1440287,
+        "longitude": 101.6883974,
+        "description": "Nasi lemak is often considered the national food of Malaysia, and there are plenty of places to eat it throughout Kuala Lumpur. Having been around since 1948, Nasi Lemak Tanglin is a place I had wanted to go for a while. It was overall very good, with a nice laid back atmosphere and surrounded by nature.",
+        "video_url": "https://www.youtube.com/watch?v=u5LYl4DM5c4"
+    },
+    {
+        "name": "Ikan Bakar Seri Melaka (Jalan Bellamy)",
+        "latitude": 3.1305042,
+        "longitude": 101.6925757,
+        "description": "One of my favorite places to eat ikan bakar, grilled fish, is on Jalan Bellamy. Back in 2012, I had to hike over a highway and climb a few fences to get there as I was only on foot. In this video, I’m a bit older, and we had a car! The ikan bakar was just as good as I remember it.",
+        "video_url": "https://www.youtube.com/watch?v=u5LYl4DM5c4"
+    },
+    {
+        "name": "Sri Ganapathi Mess",
+        "latitude": 3.085446,
+        "longitude": 101.6462353,
+        "description": "One of the best things about Malaysian food is its incredible diversity, including Malay, Chinese, and Indian food. Banana leaf south Indian food is very popular and I was recommended to try Sri Ganapathi Mess, a restaurant tucked away into a home. An amazing south Indian food experience in Kuala Lumpur.",
+        "video_url": "https://www.youtube.com/watch?v=u5LYl4DM5c4"
+    },
+    {
+        "name": "Kedai Kopi Lai Foong",
+        "latitude": 3.1453188,
+        "longitude": 101.694541,
+        "description": "Finally, another dish that many had recommended me was the unique clam noodles in Kuala Lumpur Chinatown at the legendary Kedai Kopi Lai Foong. It was delicious, and a perfect way to end an amazing Malaysian street food tour in Kuala Lumpur.",
+        "video_url": "https://www.youtube.com/watch?v=u5LYl4DM5c4"
+    }
+]
