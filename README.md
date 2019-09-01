@@ -1,2 +1,5 @@
 # malay-natin
-interactive malaysia trip itinerary
+
+Interactive itinerary for my upcoming trip to Malaysia.
+
+View at: https://njncalub.github.io/malay-natin/.
