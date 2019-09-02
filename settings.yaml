@@ -1,0 +1,12 @@
+# mapbox
+mapbox:
+  access_token: pk.eyJ1IjoibmpuY2FsdWIiLCJhIjoiY2swMHl0OHFsMmU0dTNsbWxxdzB3eDlteSJ9.PdEYA9RIhU-8jqJcQZCdyw
+
+# map settings
+maps:
+  map_id: mapbox.dark
+  style: mapbox://styles/mapbox/dark-v10
+  latitude: 3.139
+  longitude: 101.6869
+  zoom_level: 13
+  max_zoom_level: 18

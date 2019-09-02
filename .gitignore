@@ -86,3 +86,9 @@ typings/
 
 # DynamoDB Local files
 .dynamodb/
+
+# trash files
+.DS_Store
+
+# dist dir
+dist/

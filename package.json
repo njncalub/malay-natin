@@ -4,14 +4,23 @@
   "description": "Interactive itinerary for my upcoming trip to Malaysia.",
   "main": "index.js",
   "dependencies": {
-    "core-js": "^3.2.1"
+    "core-js": "^3.2.1",
+    "leaflet": "^1.5.1"
   },
   "devDependencies": {
-    "parcel": "2.0.0-alpha.1.1"
+    "@types/node": "^12.7.3",
+    "parcel-bundler": "^1.12.3",
+    "sass": "^1.22.10",
+    "shx": "^0.3.2",
+    "typescript": "^3.6.2"
   },
   "scripts": {
-    "dev": "parcel index.html",
-    "build": "parcel build index.html"
+    "start": "parcel ./index.html",
+    "prebuild-dev": "shx rm -rf dist/*",
+    "build-dev": "parcel build ./index.html --no-minify --public-url ./",
+    "prebuild": "shx rm -rf dist/*",
+    "build": "parcel build ./index.html --public-url ./",
+    "push-gh-pages": "push-dir --dir=dist --branch=gh-pages --cleanup --verbose"
   },
   "repository": {
     "type": "git",
