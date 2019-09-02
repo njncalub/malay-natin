@@ -33,5 +33,40 @@
         "longitude": 101.694541,
         "description": "Finally, another dish that many had recommended me was the unique clam noodles in Kuala Lumpur Chinatown at the legendary Kedai Kopi Lai Foong. It was delicious, and a perfect way to end an amazing Malaysian street food tour in Kuala Lumpur.",
         "video_url": "https://www.youtube.com/watch?v=u5LYl4DM5c4"
+    },
+    {
+        "name": "Nasi Kerabu Panji",
+        "latitude": 6.1198241,
+        "longitude": 102.2854292,
+        "description": "Without a doubt, one of the Malaysian foods you don’t want to miss when you visit Kelantan is nasi kerabu, rice salad, but it’s so much more than that. It’s a breakfast dish and we first started at Nasi Kerabu Panji, a local favorite spot. You get blue rice, topped with salad and side dishes, drizzled in budu fermented fish sauce, and topped with you choice of main mean. It was extraordinary.",
+        "video_url": "https://www.youtube.com/watch?v=xt4SsI6xcss"
+    },
+    {
+        "name": "Jijah's Nasi Kerabu",
+        "latitude": 6.1778829,
+        "longitude": 102.2621376,
+        "description": "Since nasi kerabu is one of the top Malaysian foods of the state of Kelantan, we decided to have two nasi kerabu’s back to back, but totally different styles and even different colors of rice. Jijah's Nasi Kerabu specializes in grilled goat, and it was incredible, highly recommended when you visit Kelantan, Malaysia.",
+        "video_url": "https://www.youtube.com/watch?v=xt4SsI6xcss"
+    },
+    {
+        "name": "Siti Khadijah Market",
+        "latitude": 6.130065,
+        "longitude": 102.2369811,
+        "description": "One of the top attractions in Kota Bharu is Siti Khadijah Market, a beautiful colorful market where you can buy all the ingredients from Kelantan and there’s also an amazing cooked food section. Laksam - 3.50 MYR ($0.86) per bowl - I had a bowl of laksam, a Kelantan Malaysian food version of laksa.",
+        "video_url": "https://www.youtube.com/watch?v=xt4SsI6xcss"
+    },
+    {
+        "name": "D'Umi Nasi Ulam",
+        "latitude": 6.033698,
+        "longitude": 102.1478373,
+        "description": "Another Malaysian food you don’t want to miss eating in Kelantan is nasi ulam, rice with raw vegetables, and a mix of dishes, all eaten specifically with budu - fermented anchovy sauce. This restaurant was amazing, a huge mix of dishes, friendly owner, and delicious food. Of course, we couldn’t resist the tempoyak - fermented durian paste.",
+        "video_url": "https://www.youtube.com/watch?v=xt4SsI6xcss"
+    },
+    {
+        "name": "Kak Jah Ayam Percik Bulatan Lemal",
+        "latitude": 6.0344568,
+        "longitude": 102.1531316,
+        "description": "Finally to end this Malaysian street food tour of Kelantan, we had some ayam percik, a coconut milk barbecue sauce dish that originates in Kelantan. We barely arrived in time, but luckily got the last few skewers.",
+        "video_url": "https://www.youtube.com/watch?v=xt4SsI6xcss"
     }
 ]
