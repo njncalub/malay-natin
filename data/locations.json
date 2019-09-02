@@ -68,5 +68,40 @@
         "longitude": 102.1531316,
         "description": "Finally to end this Malaysian street food tour of Kelantan, we had some ayam percik, a coconut milk barbecue sauce dish that originates in Kelantan. We barely arrived in time, but luckily got the last few skewers.",
         "video_url": "https://www.youtube.com/watch?v=xt4SsI6xcss"
+    },
+    {
+        "name": "Kedai Kopi Chung Wah",
+        "latitude": 2.195005,
+        "longitude": 102.2463282,
+        "description": "One of the foods you have to eat in Melaka is Hainanese chicken rice balls. The rice is cooked with chicken broth like most chicken rice, but instead of just a plate of rice, you get little fish ball shaped rice balls, along with chicken. It’s an iconic dish, but it’s pretty delicious and makes a wonderful breakfast.",
+        "video_url": "https://www.youtube.com/watch?v=IQw5UOVvDj4"
+    },
+    {
+        "name": "Asam Pedas Pak Man",
+        "latitude": 2.2267334,
+        "longitude": 102.2150581,
+        "description": "Asam pedas is sour spicy, and you’ll find variations of it across much of Southeast Asia, but Melaka is quite famous for it within Malaysia. We went to Asam Pedas Pak Man, a stall set up within a local Malaysian food court. I ordered a variety of different plates, each asam pedas but with a different fish. All were spectacular. It looks extremely spicy, but it’s not actually all that spicy, however it is extremely tasty and full of herbs and chilies and flavor. Best Malaysian food dish of the day in Melaka for me.",
+        "video_url": "https://www.youtube.com/watch?v=IQw5UOVvDj4"
+    },
+    {
+        "name": "Klebang Original Coconut Shake",
+        "latitude": 2.215657,
+        "longitude": 102.2046853,
+        "description": "This was pretty ordinary for me, nothing spectacular, but again it’s one of those things most people try in Melaka.",
+        "video_url": "https://www.youtube.com/watch?v=IQw5UOVvDj4"
+    },
+    {
+        "name": "Ban Lee Siang Satay Celup",
+        "latitude": 2.2031432,
+        "longitude": 102.2419506,
+        "description": "Next up, satay celup, a unique Melaka style satay where you choose your own skewers and boil them in the sauce right in the middle of your table. For me honestly, satay celup is too sweet, but I have to admit it’s a lot of fun to eat and cook, and very social.",
+        "video_url": "https://www.youtube.com/watch?v=IQw5UOVvDj4"
+    },
+    {
+        "name": "Ikan Bakar Haji Masu",
+        "latitude": 2.1736637,
+        "longitude": 102.2835319,
+        "description": "Finally to end this Malaysian food tour in Melaka (Malacca), we went to a seafood, ikan bakar (grilled fish) restaurant. There are quite a few huge seafood restaurants in Melaka, but I wanted one that was kind of small and laid back. Ikan Bakar Haji Masu was fantastic, and I think the best thing was their grilled fish.",
+        "video_url": "https://www.youtube.com/watch?v=IQw5UOVvDj4"
     }
 ]
