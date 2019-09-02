@@ -103,5 +103,26 @@
         "longitude": 102.2835319,
         "description": "Finally to end this Malaysian food tour in Melaka (Malacca), we went to a seafood, ikan bakar (grilled fish) restaurant. There are quite a few huge seafood restaurants in Melaka, but I wanted one that was kind of small and laid back. Ikan Bakar Haji Masu was fantastic, and I think the best thing was their grilled fish.",
         "video_url": "https://www.youtube.com/watch?v=IQw5UOVvDj4"
+    },
+    {
+        "name": "Annuar's Fish Head Curry",
+        "latitude": 3.1284173,
+        "longitude": 101.6666424,
+        "description": "One of the most legendary Malaysian street food stalls in Kuala Lumpur is Annuar's Fish Head Curry, also known as the Bangsar fish head corner. Mr. Annuar is an amazing hard working man who has been selling his south Indian Muslim style fish head curry for a long time and has a loyal following. He’s also known for his affordable prices and his fried chicken. The staff were all incredible nice, and their fish head was amazing. I also especially loved the fried chicken with the fish head curry sauce on top. Mr. Annuar would not charge us for our meal, thank you!",
+        "video_url": "https://www.youtube.com/watch?v=Bq_AkbRC2Eg"
+    },
+    {
+        "name": "Tugu View Cafe",
+        "latitude": 3.1506972,
+        "longitude": 101.6813029,
+        "description": "Next we went to Tugu View Cafe, an amazing local Malay food restaurant on top of a hill in the middle of Kuala Lumpur, although it felt like you were in the middle of a mountain park. They serve all sorts of Malaysian food, but their most famous dish is their Malay style fish head curry. We met the chef of the curry, and I just asked him to choose us the largest size which happened to be a 120 RM fish head! Most of the others were 45 - 65 RM! This was probably the best fish head curry for me of this entire Malaysian food fish head curry tour. The complexity of flavor and the ingredients blew me away.",
+        "video_url": "https://www.youtube.com/watch?v=Bq_AkbRC2Eg"
+    },
+    {
+        "name": "Restoran Mun Kee Steam Fish Head",
+        "latitude": 3.106947,
+        "longitude": 101.6085064,
+        "description": "Finally to end this fish head curry tour, we went to a Chinese restaurant. So this wasn’t actually a fish head curry, but a steamed Chinese style fish head. They gave us not only the head, but really the entire body minus the tail. It was delicious, perfectly steamed with wonderfully fragrant ginger, and it was a perfect fish to end the meal with.",
+        "video_url": "https://www.youtube.com/watch?v=Bq_AkbRC2Eg"
     }
 ]
