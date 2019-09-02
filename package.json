@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "description": "Interactive itinerary for my upcoming trip to Malaysia.",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "core-js": "^3.2.1"
+  },
   "devDependencies": {
     "parcel": "2.0.0-alpha.1.1"
   },
