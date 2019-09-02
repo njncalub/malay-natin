@@ -1,0 +1,28 @@
+{
+  "name": "malay-natin",
+  "version": "0.0.1",
+  "description": "Interactive itinerary for my upcoming trip to Malaysia.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "parcel": "2.0.0-alpha.1.1"
+  },
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/njncalub/malay-natin.git"
+  },
+  "keywords": [
+    "travel",
+    "itinerary"
+  ],
+  "author": "Nap Joseph Calub",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/njncalub/malay-natin/issues"
+  },
+  "homepage": "https://github.com/njncalub/malay-natin#readme"
+}
