@@ -17,3 +17,16 @@ View at: https://njncalub.github.io/malay-natin/.
 * [ ] Change color of marker depending on location category.
 * [ ] Add route to each location.
 * [ ] Instead of a static page, create a dynamic site that will be rebuilt using CI when there are commits to master.
+
+## Usage
+
+```bash
+# install dependencies
+$ npm install
+# start dev mode
+$ npm run start
+# build minified version
+$ npm run build
+# deploy to production
+$ npm run push-gh-pages
+```
