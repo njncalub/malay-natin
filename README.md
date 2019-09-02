@@ -14,19 +14,22 @@ View at: https://njncalub.github.io/malay-natin/.
   * [ ] images of food
   * [ ] videos
 * [ ] Add filters for food restrictions (e.g. seafood, spicy, halal, etc).
-* [ ] Change color of marker depending on location category.
+* [ ] Change color of marker depending on pin category.
 * [ ] Add route to each location.
-* [ ] Instead of a static page, create a dynamic site that will be rebuilt using CI when there are commits to master.
+* [ ] Rebuild site using CircleCI when there are commits to master.
 
 ## Usage
 
 ```bash
 # install dependencies
 $ npm install
+
 # start dev mode
 $ npm run start
+
 # build minified version
 $ npm run build
+
 # deploy to production
 $ npm run push-gh-pages
 ```
