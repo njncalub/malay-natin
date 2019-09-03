@@ -12,16 +12,16 @@ jobs:
       - checkout
       - restore_cache:
           keys:
-            - v1-dependencies-{{ checksum "package.json" }}
+            - version-dependencies-{{ checksum "package.json" }}
             # fallback to using the latest cache if no exact match is found
-            - v1-dependencies-
+            - version-dependencies-
       - run: npm install
       - run: npm run build
       - save_cache:
           paths:
             - node_modules
             - .cache
-          key: v1-dependencies-{{ checksum "package.json" }}
+          key: version-dependencies-{{ checksum "package.json" }}
       - persist_to_workspace:
           root: ./
           paths: dist
@@ -33,7 +33,7 @@ jobs:
       - checkout
       - add_ssh_keys:
           fingerprints:
-            - "CH:ANG:E:TO:MY:FIN:G:ER:PR:IN:T"
+            - "4e:68:fa:44:f8:be:20:c4:b7:69:7d:c0:4c:15:df:dc"
       - attach_workspace:
           at: dist
       - run:

@@ -1,6 +1,6 @@
 {
   "name": "malay-natin",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Interactive itinerary for my upcoming trip to Malaysia.",
   "main": "index.js",
   "dependencies": {
