@@ -1,0 +1,80 @@
+# CircleCI 2.0 configuration file.
+#
+# Check https://circleci.com/docs/2.0/language-javascript/ for more details.
+
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/node:10.16
+    working_directory: ~/project
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+            - v1-dependencies-{{ checksum "package.json" }}
+            # fallback to using the latest cache if no exact match is found
+            - v1-dependencies-
+      - run: npm install
+      - run: npm run build
+      - save_cache:
+          paths:
+            - node_modules
+            - .cache
+          key: v1-dependencies-{{ checksum "package.json" }}
+      - persist_to_workspace:
+          root: ./
+          paths: dist
+  deploy:
+    docker:
+      - image: circleci/node:10.16
+    working_directory: ~/project
+    steps:
+      - checkout
+      - add_ssh_keys:
+          fingerprints:
+            - "CH:ANG:E:TO:MY:FIN:G:ER:PR:IN:T"
+      - attach_workspace:
+          at: dist
+      - run:
+          name: configure git 1
+          command: git config user.email "njncalub@gmail.com"
+      - run:
+          name: configure git 2
+          command: git config user.name "Nap Joseph Calub"
+      - run:
+          name: Deploy to gh-pages branch
+          command: npm run push-gh-pages
+workflows:
+  version: 2
+  nightly:
+    triggers:
+      - schedule:
+          cron: "0 12 * * *"
+          filters:
+            branches:
+              only:
+                - master
+    jobs:
+      - build:
+          filters:
+            branches:
+              ignore: gh-pages
+      - deploy:
+          requires:
+            - build
+          filters:
+            branches:
+              only: master
+  build:
+    jobs:
+      - build:
+          filters:
+            branches:
+              ignore: gh-pages
+      - deploy:
+          requires:
+            - build
+          filters:
+            branches:
+              only: master
