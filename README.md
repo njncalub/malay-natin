@@ -18,8 +18,8 @@ View at: https://njncalub.github.io/malay-natin/.
 * [ ] Add filters for food restrictions (e.g. seafood, spicy, halal, etc).
 * [ ] Change color of marker depending on pin category.
 * [ ] Add route to each location.
-* [ ] Rebuild site using CircleCI when there are commits to master.
-* [ ] Remove the secrets and use environment variables in CircleCI.
+* [x] Rebuild site using CircleCI when there are commits to master.
+* [x] Remove the secrets and use environment variables in CircleCI.
 * [ ] Use issues instead of a To-Do list in the README file.
 * [ ] Rebrand project for #hacktoberfest.
 
@@ -28,6 +28,10 @@ View at: https://njncalub.github.io/malay-natin/.
 ```bash
 # install dependencies
 $ npm install
+
+# populate your environment variables
+$ cp .env.example .env
+$ vim .env
 
 # start dev mode
 $ npm run start

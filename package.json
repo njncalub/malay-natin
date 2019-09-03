@@ -1,10 +1,11 @@
 {
   "name": "malay-natin",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Interactive itinerary for my upcoming trip to Malaysia.",
   "main": "index.js",
   "dependencies": {
     "core-js": "^3.2.1",
+    "dotenv": "^8.1.0",
     "leaflet": "^1.5.1"
   },
   "devDependencies": {

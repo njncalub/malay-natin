@@ -1,7 +1,3 @@
-# mapbox
-mapbox:
-  access_token: pk.eyJ1IjoibmpuY2FsdWIiLCJhIjoiY2swMHl0OHFsMmU0dTNsbWxxdzB3eDlteSJ9.PdEYA9RIhU-8jqJcQZCdyw
-
 # map settings
 maps:
   map_id: mapbox.dark

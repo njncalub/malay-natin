@@ -1,7 +1,10 @@
 import L from "leaflet";
 
+import dotenv from "dotenv";
 import settings from "./settings.yaml";
 import locations from "./data/locations.json";
+
+dotenv.config();
 
 const appMap = L.map("map", {
   style: settings.maps.style,
@@ -17,7 +20,7 @@ L.tileLayer(
       Imagery © <a href="https://www.mapbox.com/">Mapbox</a>`,
     maxZoom: settings.maps.max_zoom_level,
     id: settings.maps.map_id,
-    accessToken: settings.mapbox.access_token
+    accessToken: process.env.MAPBOX_ACCESS_TOKEN
   }
 ).addTo(appMap);
 
