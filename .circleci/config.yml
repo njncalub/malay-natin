@@ -24,7 +24,9 @@ jobs:
           key: version-dependencies-{{ checksum "package.json" }}
       - persist_to_workspace:
           root: ./
-          paths: dist
+          paths:
+            - dist
+            - node_modules  # added to use push-dir
   deploy:
     docker:
       - image: circleci/node:10.16
