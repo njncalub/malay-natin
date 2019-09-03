@@ -1,6 +1,6 @@
 # Malay Natin
 
-[![CircleCI](https://circleci.com/gh/njncalub/malay-natin.svg?style=svg)](https://circleci.com/gh/njncalub/malay-natin)
+[![CircleCI](https://circleci.com/gh/njncalub/malay-natin.svg?style=shield)](https://circleci.com/gh/njncalub/malay-natin)
 
 Interactive itinerary for my upcoming trip to Malaysia.
 
