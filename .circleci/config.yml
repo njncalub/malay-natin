@@ -24,9 +24,7 @@ jobs:
           key: version-dependencies-{{ checksum "package.json" }}
       - persist_to_workspace:
           root: ./
-          paths:
-            - dist
-            - node_modules  # added to use push-dir
+          paths: dist
   deploy:
     docker:
       - image: circleci/node:10.16
@@ -39,14 +37,11 @@ jobs:
       - attach_workspace:
           at: dist
       - run:
-          name: configure git 1
-          command: git config user.email "njncalub@gmail.com"
-      - run:
-          name: configure git 2
-          command: git config user.name "Nap Joseph Calub"
-      - run:
           name: Deploy to gh-pages branch
-          command: npm run push-gh-pages
+          command: |
+            git config user.email "njncalub@gmail.com"
+            git config user.name "Nap Joseph Calub"
+            NODE_DEBUG=gh-pages npx gh-pages --dotfiles --message "[skip ci] Deploy ${CIRCLE_SHA1}" -d dist/*
 workflows:
   version: 2
   nightly:
