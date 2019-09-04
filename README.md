@@ -35,12 +35,6 @@ $ vim .env
 
 # start dev mode
 $ npm run start
-
-# build minified version
-$ npm run build
-
-# deploy ./dist contents to the gh-pages branch
-$ npm run push-gh-pages
 ```
 
 ## Contributing
