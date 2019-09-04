@@ -2,7 +2,7 @@ import L from "leaflet";
 
 import dotenv from "dotenv";
 import settings from "./settings.yaml";
-import locations from "./data/locations.json";
+import locations from "./data/locations.yaml";
 
 dotenv.config();
 
